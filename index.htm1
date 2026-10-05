@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zhegar Music</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      background: #000;
+      padding: 30px 15px;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin: 0;
+    }
+
+    .tagline {
+      color: #ccc;
+      margin-top: 10px;
+    }
+
+    .hero {
+      padding: 50px 20px;
+    }
+
+    .hero h2 {
+      font-size: 32px;
+    }
+
+    .music {
+      background: #1d1d1d;
+      margin: 20px;
+      padding: 25px;
+      border-radius: 15px;
+    }
+
+    audio {
+      width: 100%;
+      max-width: 500px;
+      margin-top: 15px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #fff;
+      color: #000;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 25px;
+      background: #000;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>ZHEGAR</h1>
+    <p class="tagline">MUSICIAN • MALAWI</p>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to Zhegar Music</h2>
+    <p>Listen to my latest music and follow my journey.</p>
+  </section>
+
+  <section class="music">
+    <h2>TELO</h2>
+    <p>Zhegar - Ndimafuna Telo Remix Ft. G-Fourty & Way Bee</p>
+
+    <audio controls>
+      <source src="music/telo.mp3" type="audio/mpeg">
+      Your browser does not support audio.
+    </audio>
+
+    <br>
+
+    <a class="button" href="music/telo.mp3" download>
+      Download Song
+    </a>
+  </section>
+
+  <footer>
+    <p>© 2026 Zhegar Music. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
